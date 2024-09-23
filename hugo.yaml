@@ -1,0 +1,39 @@
+baseURL: https://mynameismaxz.github.io
+languageCode: en-us
+title: "@mynameismaxz blog"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      tag: "Tags"
+      category: "Categories"
+    params:
+      homeInfoParams:
+        Title: "Hello \U0001F44B"
+        Content: "Welcome to my blog! I'm Mac (a nickname for Maxz). I'm a software engineer. I love to write code and share my knowledge with others. In this space, I will share my knowledge, my experience, and my life. I hope you enjoy it. \U0001F618"
+  th:
+    languageName: "Thai"
+    weight: 2
+    taxonomies:
+      tag: "แท็ก"
+      category: "หมวดหมู่"
+    params:
+      homeInfoParams:
+        Title: "สวัสดีจ้า \U0001F44B"
+        Content: "ยินดีต้อนรับสู่บล็อกของฉัน! ฉันชื่อแม็ค (แน่หล่ะ ฉันเอง!) ฉันเป็นวิศวกรซอฟต์แวร์ ฉันชอบเขียนโค้ดและแบ่งปันความรู้ของฉันกับผู้อื่น ในพื้นที่นี้ ฉันจะมาแบ่งปันความรู้ ประสบการณ์ และชีวิตของฉัน หวังว่าคุณจะเพลิดเพลินกับมัน \U0001F618"
+
+params:
+  env: production
+  homeInfoParams:
+    Title: "Hello \U0001F44B"
+    Content: "Welcome to my blog! I'm Mac (a nickname for Maxz). I'm a software engineer. I love to write code and share my knowledge with others. In this space, I will share my knowledge, my experience, and my life. I hope you enjoy it. \U0001F618"
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/mynameismaxz"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/mynameismaxz/"
