@@ -13,6 +13,10 @@ create: ## Create a new post
 	@read -p "Enter the post title: " title; \
 	hugo new content content/posts/$$title.md
 
+.PHONY: draft-run
+draft-run: ## Run the application with drafts
+	@hugo server -D --buildDrafts
+
 define print-target
     @printf "Executing target: \033[36m$@\033[0m\n"
 endef
